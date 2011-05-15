@@ -5,6 +5,8 @@ FRBR-work-level book commenting, and consists of two parts: a Javascript,
 which identifies ISBNs and posts these to the second part, a web service 
 in PHP which queries the OCLC xISBN web service.
 
+The Javascript portion has two dependencies: jQuery <http://code.jquery.com/jquery-1.6.1.js> and <https://github.com/jamespadolsey/jQuery-Plugins/tree/master/cross-domain-ajax/>
+
 0.1 License
 
 Copyright (C) 2011 by Rurik Thomas Greenall
