@@ -9,6 +9,9 @@ The Javascript portion has two dependencies: jQuery
 <http://code.jquery.com/jquery-1.6.1.js> and 
 <https://github.com/jamespadolsey/jQuery-Plugins/tree/master/cross-domain-ajax/>
 
+To use it, just include the required libraries before the </body> tag and put 
+<div id="disqus_thread"></div> somewhere in the body.
+
 0.1 License
 
 Copyright (C) 2011 by Rurik Thomas Greenall
