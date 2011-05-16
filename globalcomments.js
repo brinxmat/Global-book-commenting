@@ -36,7 +36,6 @@ function setDisqusID(newId) {
   	var id = newId;
   	if (id != null){
 		var disqus_shortname = 'isbntestlinks';
-	    var disqus_identifier = id;	
 	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 	    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
 	    var n = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
@@ -79,7 +78,7 @@ function setDisqusID(newId) {
 				    }
 				    var id = res;				
 					if (id){
-//						disqus_identifier = id;
+						disqus_identifier = id;
 						setDisqusID(String(id));
 						return 0;
 					}
